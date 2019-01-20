@@ -1,4 +1,4 @@
-##Golang资料集
+## Golang资料集
 
 * [《Platform-native GUI library for Go》](https://github.com/andlabs/ui)
 
@@ -343,3 +343,27 @@
 * [《Learning Go: Lexing and Parsing》](http://blog.leahhanson.us/post/recursecenter2016/recipeparser.html)
 
 介绍：利用go进行词法分析
+
+* [《dotConferences talks》](https://www.dotconferences.com/conference/dotgo-2017)
+
+介绍：dotGo conference 是相当盛大的 Golang 研讨会， Google 与 Golang 社群有许多权威都有加入這场盛会． 在這場有有许多值得一听的演讲． Francesc 讲 Machine Learning in Go Sam Boyer (dep 的主要开发者之一) 來讲 Dep Sameer Ajmani (Go team manager ) 來讲 Simulation real world in Go
+
+* [《A Gopher's Reading List》](https://github.com/enocom/gopher-reading-list)
+
+介绍：Golang学习阅读列表，基础知识、经典文章（高效的golang、并发）、编码风格、测试、Web、性能分析、垃圾回收、性能处理、字符编码处理、JSON编码与解码
+
+* [《Go libraries》](https://golanglibs.com/)
+
+介绍：Golang库搜索
+
+* [《Golang libraries of uber》](https://go.uber.org/)
+
+介绍：Uber的开源核心库。从重可以学习到一个大型系统的Go语言结构设计，里面涉及到配置、日志、工具组件、RPC、监控
+
+* [《Go语言高级编程(Advanced Go Programming)》](https://chai2010.gitbooks.io/advanced-go-programming-book/)
+
+介绍：本书涵盖CGO、Go汇编语言、RPC实现、Web框架实现、分布式系统等高阶主题，针对Go语言有一定经验想深入了解Go语言各种高级用法的开发人员。对于刚学习Go语言的读者，建议先从[《Go语言圣经》](https://github.com/gopl-zh/gopl-zh.github.com)开始系统学习Go语言的基础知识。
+
+* [《GopherCon 2018 liveblog》](https://about.sourcegraph.com/go/)
+
+介绍：GopherCon 2018会议分享文本,主题：包的实现，Go contributor，代码优化、机器学习的应用、项目结构、图像识别、测试

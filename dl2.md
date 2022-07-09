@@ -376,7 +376,7 @@
 
 * [《Gradient Boosted Regression Trees》](http://nbviewer.ipython.org/github/pprett/pydata-gbrt-tutorial/blob/master/gbrt-tutorial.ipynb)
 
-介绍:(IPN)基于Scikit-Learn的GBRT(Gradient Boost Regression Tree)教程，[slide](http://orbi.ulg.ac.be/bitstream/2268/163521/1/slides.pdf)
+介绍:(IPN)基于Scikit-Learn的GBRT(Gradient Boost Regression Tree)教程，[slide](http://orbi.ulg.ac.be/bitstream/2268/163521/1/slides.pdf).推荐决策树相关[阅读列表](https://github.com/benedekrozemberczki/awesome-gradient-boosting-papers)
 
 * [《Apache SINGA : Distributed Deep Learning System》](http://www.comp.nus.edu.sg/~dbsystem/singa/)
 
@@ -846,7 +846,7 @@
 
 * [《Deep learning Book》](http://www.deeplearningbook.org/)
 
-介绍:这是一本在线的深度学习书籍,合著者有Ian Goodfellow, Yoshua Bengio 和 Aaron Courville.如果你是一位新入门的学员可以先看这本书籍[Yoshua Bengio: How can one get started with machine learning?](https://www.quora.com/How-can-one-get-started-with-machine-learning-1).[中文译本](https://github.com/exacity/deeplearningbook-chinese)
+介绍:这是一本在线的深度学习书籍,合著者有Ian Goodfellow, Yoshua Bengio 和 Aaron Courville.如果你是一位新入门的学员可以先看这本书籍[Yoshua Bengio: How can one get started with machine learning?](https://www.quora.com/How-can-one-get-started-with-machine-learning-1).[中文译本](https://github.com/exacity/deeplearningbook-chinese).[一份简短的深度学习笔记](https://github.com/jianzhu/dl-notes)
 
 * [《UFLDL Recommended Readings》](http://ufldl.stanford.edu/wiki/index.php/UFLDL_Recommended_Readings)
 
@@ -1468,3 +1468,40 @@
 * [《INF556 -- Topological Data Analysis (2018-19)》](http://www.enseignement.polytechnique.fr/informatique/INF556/index.html)
 
 介绍: 课程资料：拓扑数据分析。非官方[笔记](https://tlacombe.github.io/teaching/notesCoursINF556/)
+
+* [《paper with code》](https://paperswithcode.com)
+
+介绍: 有时会遇到找Paper的时候还需要找代码。时间一晃眼就过去了。现在有一个站点集合论文与代码一起。涵盖计算机视觉、自然语言、语音、医疗、生物等各个领域的机器学习论文
+
+* [《awesome network embedding》](https://github.com/chihming/awesome-network-embedding)
+
+介绍: 网络嵌入,也被称为图嵌入方法。推荐國立政治大學[陈启明](http://cherry.cs.nccu.edu.tw/~g10018/portfolio/)博士整理的推荐阅读列表。[图嵌入论文阅读列表](https://github.com/benedekrozemberczki/awesome-graph-classification)
+
+* [《Awesome Community Detection》](https://github.com/benedekrozemberczki/awesome-community-detection)
+
+介绍: 社区发现算法用来发现网络中的社区结构，也可以视为一种广义的聚类算法。做社交网络的朋友推荐阅读[社区发现（community detection）未来的路到底该何去何从？](https://www.zhihu.com/question/32127662) 以及基于NetworkX构建的项目[karateclub](https://github.com/benedekrozemberczki/karateclub)
+
+* [《SLAM Resources》](https://github.com/ckddls1321/SLAM_Resources)
+
+介绍: 即时定位与地图构建资源列表，主要是这个领域的论文、算法、数据集、相关开发工具
+
+* [《Fraud Detection Research Papers》](https://github.com/benedekrozemberczki/awesome-fraud-detection-papers)
+
+介绍: 反欺诈相关论文阅读列表，在金融领域反欺诈一直是一个非常重要的部分。贯穿整个金融系统。随着经济的发展，电商、保险等行业需要引入欺诈检测。论文列表中涉及的部分涵盖电商、交易、社交网络、银行多个行业的案例与实践。
+
+* [《Awesome model compression》](https://github.com/ChanChiChoi/awesome-model-compression)
+
+介绍: 深度神经网络的压缩方法相关论文阅读列表。卷积神经网络日益增长的深度和尺寸为深度学习在移动端的部署带来了巨大的挑战，CNN模型压缩与加速成为了学术界和工业界都重点关注的研究领域之一。
+
+* [《Best Resources for Imbalanced Classification》](https://machinelearningmastery.com/resources-for-imbalanced-classification/)
+
+介绍: 不平衡分类其主要关注于如何从类别分布不均衡的数据中学习数据的模式。本篇介绍了一些解决不平衡类分类问题的多种学习资源
+
+* [《Machine learning system design pattern》](https://github.com/mercari/ml-system-design-pattern)
+
+介绍: 机器学习系统设计模式，涵盖QA、训练、提供服务、devops运维等场景 
+
+* [《Advanced Machine learning》](https://www.aminer.cn/aml)
+
+介绍: 来自清华大学的机器学习课程，课程主要介绍机器学习的理论和相关算法；课程内容涵盖基础篇：经典机器学习方法的回顾、概率图生成模型（Generative learning）和概率图判别模型（Discriminative learning），进阶篇：介绍最近流行的深度学习、表示学习、增强学习、自动机器学习以及对抗学习，高级篇：介绍当前热点的预训练、自学习以及认知图谱等
+

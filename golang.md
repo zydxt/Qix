@@ -367,3 +367,31 @@
 * [《GopherCon 2018 liveblog》](https://about.sourcegraph.com/go/)
 
 介绍：GopherCon 2018会议分享文本,主题：包的实现，Go contributor，代码优化、机器学习的应用、项目结构、图像识别、测试
+
+* [《Go security》](https://github.com/guardrailsio/awesome-golang-security)
+
+介绍：Golang在安全领域的应用
+
+* [《Go conference》](https://github.com/golang/go/wiki/Conferences)
+
+介绍：Go会议主页列表。
+
+* [《Go 101》](https://go101.org/article/101.html)
+
+介绍：Go 101是一个系列，包含语言基础、技巧、内部细节、常见疑问。有[中文版](https://gfw.go101.org/article/101.html)
+
+* [《Understanding Real-World Concurrency Bugs in Go》](https://engineering.purdue.edu/~yiying/GoStudy-ASPLOS19.pdf)
+
+介绍：总结了非常多数量且有用的真实 Bug，用以警示我们未来使用这些同步原语时可能会犯的错误。[讨论](https://github.com/developer-learning/reading-go/issues/464)
+
+* [《Uber Go Style Guide》](https://github.com/uber-go/guide)
+
+介绍：Uber Go语言编码规范,[中文参考](https://tonybai.com/2019/10/12/uber-go-style-guide/)
+
+* [《Go语言四十二章经》](https://github.com/ffhelicopter/Go42)
+
+介绍：详细讲述Go语言规范与语法细节及开发中常见的误区，通过研读标准库等经典代码设计模式，启发读者深刻理解Go语言的核心思维，进入Go语言开发的更高阶段。
+
+* [《go.dev》](https://go.dev/)
+
+介绍：Go官方团队又一生态建设社区，它提供了 godoc.org 的文档，界面更加友好。

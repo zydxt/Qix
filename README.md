@@ -1,4 +1,5 @@
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) ![GitHub stars](https://img.shields.io/github/stars/ty4z2008/qix.svg?style=plastic) ![GitHub forks](https://img.shields.io/github/forks/ty4z2008/qix.svg?color=blue&style=plastic) 
 
 ## About Me
 
@@ -20,28 +21,35 @@ There may be some incorrect information in the article. I hope i can correct err
 
 ### node-mysql document translate
 
-node-mysql offcial document:https://github.com/felixge/node-mysql/blob/master/Readme.md
+- [node-mysql offcial document](https://github.com/felixge/node-mysql/blob/master/Readme.md)
 
-node-mysql Chinese document:https://github.com/ty4z2008/Qix/blob/master/node.md
+- [node-mysql Chinese document](https://github.com/ty4z2008/Qix/blob/master/node.md)
 
 ## Machine Learning And deep learning Resources
 
-Chapter 1:https://github.com/ty4z2008/Qix/blob/master/dl.md
+- [Chapter 1](https://github.com/ty4z2008/Qix/blob/master/dl.md)
 
-Chapter 2:https://github.com/ty4z2008/Qix/blob/master/dl2.md
+- [Chapter 2](https://github.com/ty4z2008/Qix/blob/master/dl2.md)
 
 ## Golang learning resources
 
-Link ：https://github.com/ty4z2008/Qix/blob/master/golang.md
+- [Chapter 1](https://github.com/ty4z2008/Qix/blob/master/golang.md)
 
 
 ## PostgreSQL database resources
 
-Link  ：https://github.com/ty4z2008/Qix/blob/master/pg.md
+- [Chapter 1](https://github.com/ty4z2008/Qix/blob/master/pg.md)
+
 
 ## Distributed system resources
 
-Links ：https://github.com/ty4z2008/Qix/blob/master/ds.md
+- [Chapter 1](https://github.com/ty4z2008/Qix/blob/master/ds.md)
+
+## Database system resources
+
+- [Chapter 1](https://github.com/ty4z2008/Qix/blob/master/db.md)
+
+
 
 ## Additional notes
 

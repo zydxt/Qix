@@ -61,9 +61,9 @@
 
 * [《Distributed systems for fun and profit》](http://book.mixu.net/distsys/index.html)
 
-介绍:分布式系统电子书籍.
+介绍:分布式系统电子书籍.涵盖内容：分布式系统介绍、全序和偏序、时钟、复制模型.适合分布式系统入门的同学。国内也有一些[笔记](https://blog.csdn.net/u012618715/article/details/76652831)
 
-* [《Distributed Systems Spring 2015》](http://www.andrew.cmu.edu/course/95-702/)
+* [《95-702 — Distributed Systems for Information Systems Management》](http://www.andrew.cmu.edu/course/95-702/)
 
 介绍:卡内基梅隆大学春季分布式课程主页
 
@@ -264,7 +264,7 @@
 
 介绍:分布式系统基础之操作系统学习指南.
 
-* [《分布式系统领域经典论文翻译集》](http://duanple.blog.163.com/blog/static/709717672011330101333271/)
+* [《分布式系统领域经典论文翻译集》](http://duanple.com/?p=170)
 
 介绍:分布式系统领域经典论文翻译集.
 
@@ -418,7 +418,7 @@
 
 * [《Cassandra - A Decentralized Structured Storage System》](https://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf)
 
-介绍: 分布式存储系统Cassandra剖析,推荐白皮书[Introduction to Apache Cassandra](http://www.datastax.com/wp-content/uploads/2012/08/WP-IntrotoCassandra.pdf).
+介绍: 分布式存储系统Cassandra剖析,主要讲述系统设计、客户端API、以及facebook的应用。推荐白皮书[Introduction to Apache Cassandra](http://www.datastax.com/wp-content/uploads/2012/08/WP-IntrotoCassandra.pdf).
 
 * [《What is the best resource to learn about distributed systems?》](https://www.quora.com/What-is-the-best-resource-to-learn-about-distributed-systems)
 
@@ -490,7 +490,7 @@
 
 * [《Raft: In search of an Understandable Consensus Algorithm》](https://raft.github.io/raft.pdf)
 
-介绍：aft 是一种用来管理日志复制的一致性算法。它和 Paxos 的性能和功能是一样的，但是它和 Paxos 的结构不一样；这使得 Raft 更容易理解并且更易于建立实际的系统。[中文版](http://www.infoq.com/cn/articles/raft-paper)
+介绍：raft 是一种用来管理日志复制的一致性算法。它和 Paxos 的性能和功能是一样的，但是它和 Paxos 的结构不一样；这使得 Raft 更容易理解并且更易于建立实际的系统。[中文版](http://www.infoq.com/cn/articles/raft-paper). [](https://github.com/pingcap/raft-rs)
 
 * [《Raft: Understandable Distributed Consensus》](http://thesecretlivesofdata.com/raft/)
 
@@ -748,7 +748,7 @@
 
 介绍:Erlang的作者[Joe Armstrong](http://joearms.github.io/)撰写的论文，面对软件错误构建可靠的分布式系统.[中文译版](http://open.qiniudn.com/[Joe-Armstrong][CN]Making-reliable-distributed-systems-in-the-presence-of-software-errors.pdf)
 
-* [《CS 525: Advanced Distributed Systems[Spring 2016]》](https://courses.engr.illinois.edu/cs525/sched.htm)
+* [《CS 525: Advanced Distributed Systems[Spring 2018]》](https://courses.engr.illinois.edu/cs525/sp2018/sched.htm)
 
 介绍:伊利诺伊大学的Advanced Distributed Systems 里把各个方向重要papers（updated Spring 2015）列举出来，可以参考一下
 
@@ -908,3 +908,114 @@
 * [《Large-scale Incremental Processing Using Distributed Transactions and Notifications》](http://notes.stephenholiday.com/Percolator.pdf)
 
 介绍:Percolator号称其取代MapReduce之后，Google的索引更新速度提升了100倍。它究竟是如何实现 “100” 这个刺眼的数字？当今的并行计算世界真的有如此大的提升空间吗？当我们满心欢喜以为又有新的算法、新的并行计算架构可以学习时，她却又为何跟你聊起了分布式事务？这篇文章将为您揭晓。[中文版](http://www.importnew.com/2896.html)
+
+* [《Designing Data-Intensive Applications》](http://dataintensive.net/)
+
+介绍:设计数据密集型应用是一本讲述分布式系统的数据，作者是卡内基梅隆大学的研究员。本书的质量很高。详细讲述各种数据存储，包括关系型数据库、NoSQL、大数据存储、流处理系统等等，由浅入深、拨丝抽茧.适合给刚刚步入分布式系统大门的朋友.[简译版](https://vonng.gitbooks.io/ddia-cn/content/)
+
+* [《CSE 552 Fall 2013 Lecture Topics》](https://courses.cs.washington.edu/courses/cse552/13au/calendar/lecturelist.html)
+
+介绍:华盛顿大学分布式系统课程，老师是Tom Anderson。
+
+* [《Kafka: a Distributed Messaging System for Log Processing》](http://notes.stephenholiday.com/Kafka.pdf)
+
+介绍:这篇论文是Kafka的开发团队所著，讲述Kafka的设计和架构，在Linkedin中应用以及性能评估，相当于是消息系统领域的"GFS"论文。
+
+* [《Workload Analysis of a Large-Scale Key-Value Store》](http://www.ece.eng.wayne.edu/~sjiang/pubs/papers/atikoglu12-memcached.pdf)
+
+介绍:这篇论文分析facebook在大规模使用Memcached的应用经验。如果高效的在分布式系统中利用缓存。通过缓存系统，研究员可以像tcpdump一样保存请求进行数据分析。如果是遇到大规模缓存使用的场景还是挺值得阅读。
+
+* [《F4: Facebook's Warm BLOB Storage System》](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-muralidhar.pdf)
+
+介绍:F4 是 Facebook 为了降低存储成本而开发的，应用于只读可删除不可写场景的，对象存储系统。F4是建立在HDFS上，并阐述了它是如何应对HDFS的几处局限（即，增加了cross-data center replication和使用纠删码来减少复制因子）。通常，Facebook开发一个系统，都是非常实用的，都是为他们真实的使用案例量身打造的。
+
+* [《Towards Optimization-Safe Systems: Analyzing the Impact of Undefined Behavior》](http://www.cs.cmu.edu/~15712/papers/wang13.pdf)
+
+介绍:这篇论文是[SOSP '13](https://www.sigops.org/s/conferences/sosp/2013/)的论文。描述了各种由于编译器优化导致的正常人很难发现的 Bug。下面摘录一篇[阅读笔记](https://github.com/dyweb/papers-notebook#bug):
+```
+Undefined behavior 是编程语言规范对某段代码可能产生的某些执行结果未定义。Unstable code 就是在程序实际的执行过程中，由于涉及到undefined behavior，从而无法被编译器翻译（直接略过）的代码段。
+
+STACK会在Assumption Δ被允许和不允许的情况下分别模拟编译。
+
+先模拟假设不成立的情况进行一次编译；
+模拟假设成立的情况进行一次编译；
+查看前两步的执行结果有没有区别，有区别的地方就是 unstable code。
+如果执行第二步时得不到准确的结果，那么会漏报一些unstable code；如果执行第一步时得不到准确的结果，就会产生误报(false warning / false positive)。目前stack给出的Undefined behavior pattern 可能不齐全。
+
+对于程序员来说，通过fix bug或者去掉一些会被编译器当做是undefined behavior的代码；对于编译器来说，可以集成一些现有的bug-finding的工具，或者利用STACK的方式来判定unstable code；完善编程语言的specification，定义更多的代码执行规则，减少undefined behavior的产生。
+
+STACK为了使可扩展性更高，在计算Δ = ∀e:Reach(e) → ¬Undef(e)的时候做了一些近似运算，使最后得到的结果可能会漏掉一些unstable code。STACK为了简化和滤过某些查询用到的constraint solver如果发生了timeout，也会出现漏报的情况。因此，STACK为了更好的扩展性，牺牲了一定的可靠性（精度）。
+```
+
+* [《The Tail At Scale》](https://cseweb.ucsd.edu/~gmporter/classes/fa17/cse124/post/schedule/p74-dean.pdf)
+
+介绍:Jeff Dean 2013年发表的文章，讲述当用户的请求依赖大规模分布式系统来协作完成时，如何保证请求的响应时间？。里面提到几个关键：任务拆分、区分定时任务和后台任务、服务间调用超时处理、热点数据多副本.
+
+* [《ZooKeeper: Wait-free coordination for Internet-scale systems》](https://www.usenix.org/legacy/event/atc10/tech/full_papers/Hunt.pdf)
+
+介绍: ZooKeeper是一个分布式协调组件，它提供了一系列的基本原语，增、删、读、监听。例如这些可以实现很多高级的原语。例如锁（Zookeeper部署锁服务）、配置管理、主从管理。本文主要讲述了它的设计、应用以及测试结果。其中也讲到了它的高可用问题，是Chubby的开源版本.
+
+* [《Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases》](https://www.allthingsdistributed.com/files/p1041-verbitski.pdf)
+
+介绍:Amazon Aurora是NewSQL的代表作品之一，与[TiDB](https://github.com/pingcap/tidb)相比较有一些不同。不过两者都是为云而生的数据库，对横向伸缩天生的良好支持、failover。从论文中可以知道aurora通过log如何实现改善数据库的性能。Aurora的核心思想是尽可能的利用存储的性能，把计算节点下推到存储节点处理。
+
+- [《Consensus: Bridging Theory and Practice》](https://web.stanford.edu/~ouster/cgi-bin/papers/OngaroPhD.pdf)
+
+介绍：一致性：理论和实践。这篇是作者的博士论文，整篇论文围绕这个一致性相关主题展开。Raft算法基础、集群成员改变、客户端交互、Raft学习、验证、一致性实现和性能。作者把相关的公式和笔记放在[github](https://github.com/ongardie/dissertation/)
+
+- [《Performance Debugging for Distributed Systems of Black Boxes》](https://pdos.csail.mit.edu/~athicha/papers/blackboxes:sosp03.pdf)
+
+介绍：对分布式系统的性能Debug非常困难，因为里面的问题很多都是非确定性的，而且无法重现。只能通过对log的挖掘，找出配对的调用/消息以定位问题。黑盒方案假定需要跟踪的除了上述信息之外没有额外的信息，这样使用统计回归技术来推断两者之间的关系.与之相对应的Google使用标注方案解决Debug问题，具体参考[Dapper](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/36356.pdf)
+
+- [《The Five-Minute Rule Ten Years Later, and Other Computer Storage Rules of Thumb》](http://jimgray.azurewebsites.net/5_min_rule_sigmod.pdf)
+
+介绍： 五分钟法则,此文与十年前的原始论文解释了一个量化公式，用来计算数据页是否应该缓存在内存中。能读到Jim Gray处理一系列相关问题（比如数据页应该多大）的方法，幸何如之。
+
+* [《CS-739: Distributed Systems》](http://pages.cs.wisc.edu/~remzi/Classes/739/Fall2018/)
+
+介绍:威斯康星大学分布式系统课程，主要以阅读为主：网络（TCP、RPC、U-net、Thrift、虚拟网络），系统失效、分布式时钟、一致性、资源隔离与分配、安全、负载均衡、集群调度、文件系统、案例学习.
+
+* [《Readings in Stream Processing》](https://github.com/xerial/streamdb-readings)
+
+介绍: 流处理相关论文阅读列表。可以深入理解消息队列
+
+* [《paper notebook of distributed system》](https://github.com/dyweb/papers-notebook)
+
+介绍: 分布式系统领域论文笔记。里面推荐了很多相关论文，譬如：调度器(Scheduler)、存储(Storage)、一致性算法、图计算、虚拟化、沙箱、安全、网络.现在这个列表转移到了[issue](https://github.com/dyweb/papers-notebook/issues)
+
+* [《Distributed tracing》](https://gianarb.it/blog/faq-distributed-tracing)
+
+介绍: 分布式系统跟踪，解释了为什么需要、跟踪什么、如何处理众多信息.
+
+* [《Dapr：Distributed Application Runtime》](https://github.com/dapr/dapr)
+
+介绍: 微软发布分布式应用程序运行时(Dapr)，这是一个开源项目，使每个开发人员更容易地构建微服务应用程序
+
+* [《Waltz: A Distributed Write-Ahead Log》](https://wecode.wepay.com/posts/waltz-a-distributed-write-ahead-log)
+
+介绍: 分布式预写日志
+
+* [《Reading List – Designing a Practical Distributed System》](https://devpoga.org/distributed_system/)
+
+介绍: 设计实用的分布式系统阅读清单
+
+* [《A Generalised Solution to Distributed Consensus》](https://arxiv.org/abs/1902.06776)
+
+介绍: 分布式共识问题一直以来是大规模系统的一个难题，本文讨论了一些分布式共识的通用解决方案。[详细介绍](https://blog.acolyer.org/2019/03/08/a-generalised-solution-to-distributed-consensus/)
+
+* [《Paxos vs Raft: Have we reached consensus on distributed consensus?》](https://arxiv.org/abs/2004.05074)
+
+介绍: 这篇论文对比分布式共识算法Paxos和Raft。讨论了为什么对于诞生的2014年诞生的Raft算法如此受业界亲睐。使用Raft的理论来解释Paxos算法，通过类比的方式发现，两者在大体上是相类似的。不同点在于Leader选举。论文得出的结论是：Raft比Paxos更易用是因为论文解释的比较清楚。
+
+* [《Concurrent and Distributed Systems》](https://www.cl.cam.ac.uk/teaching/2021/ConcDisSys/)
+
+介绍: 卡内基梅隆大学2021年分布式系统课程主页，围绕这个并发和分布式系统讨论。分布式章节的讲师是DDIA书籍的作者Martin Kleppmann，并且相关的视频也已经放到[Youtube](https://www.youtube.com/playlist?list=PLeKd45zvjcDFUEv_ohr_
+
+HdUFe97RItdiB).
+
+* [《Patterns of Distributed Systems》](https://martinfowler.com/articles/patterns-of-distributed-systems/)
+
+介绍: 在线电子书，讲述分布式系统模式。类似编程语言中的设计模式。列出了目前业界常用的分布式系统设计模式。WAL、两步提交、版本向量、复制日志等
+
+
+

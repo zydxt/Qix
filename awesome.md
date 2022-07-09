@@ -413,3 +413,27 @@
 
 介绍:加州大学伯克利学校AMPLab实验室论文集合
 
+* [《Online, Asynchronous Schema Change in F1》](https://static.googleusercontent.com/media/research.google.com/zh-CN//pubs/archive/41376.pdf)
+
+介绍:在线异步修改表结构，本文讲述Google F1 在线表结构更改算法逻辑。核心思想是把scheme的修改由一步变为四步：`absent --> delete only --> write only --(reorg)--> public`.中文版参考可以阅读[异步 schema 变更
+](https://github.com/zimulala/builddatabase/blob/master/f1/schema-change.md)、[TiDB 的异步 schema 变更实现](http://zimulala.github.io/2016/02/02/schema-change-implement/)
+
+* [《Writing an OS in Rust (Second Edition)》](https://os.phil-opp.com/)
+
+介绍: 用Rust写一个操作系统系列文章。
+
+* [《Competitive Programmer’s Handbook》](https://cses.fi/book/book.pdf)
+
+介绍: 开源书籍，程序员竞争知识手册。
+
+* [《Paper we love》](https://github.com/papers-we-love/papers-we-love)
+
+介绍: 计算机科学界的论文阅读和讨论。
+
+* [《6.S081: Operating System Engineering》](https://pdos.csail.mit.edu/6.828)
+
+介绍: 麻省理工学院操作系统课程，教你一步步构建一个微型操作系统
+
+* [《Operating Systems: Three Easy Pieces》](http://pages.cs.wisc.edu/~remzi/OSTEP/)
+
+介绍: 威斯康星大学出版的操作系统书籍，把操作系统分为三部分：虚拟化、并发、持久化。对于自学操作系统很受益。原文写的通俗易懂，没有晦涩难懂的词藻。配合留下来的课堂作业能巩固通过看书了解到的知识
